@@ -1,0 +1,41 @@
+.Squar{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+}
+.Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.InRange{
+    background-color: rgb(162, 203, 223);
+}
+.Self{
+    background-color: rgb(141, 219, 134);
+}
+.Beat{
+    background-color: rgb(245, 132, 132);
+}
+.IsPiece{
+    cursor: pointer;
+}
+.Game{
+    margin-top: 30px;
+}
+.Message{
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BeatList{
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.Hover{
+    background-color: rgb(207, 207, 207);
+    border: 1px solid rgb(148, 148, 148);
+}
